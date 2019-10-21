@@ -1,5 +1,4 @@
 # First phase: build
-
 FROM node:alpine as builder
 WORKDIR /app
 COPY ./package.json .
