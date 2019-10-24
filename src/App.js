@@ -10,7 +10,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>Is this the real life?</p>
+        <p style={{ fontWeight: 'bold' }}>Is this the real life?</p>
+        <p style={{ fontWeight: 'bolder' }}>Is this just fantasy?</p>
         <a
           className="App-link"
           href="https://reactjs.org"
