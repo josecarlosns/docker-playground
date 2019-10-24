@@ -9,4 +9,4 @@ RUN npm run build
 # Second phase: deployment
 FROM nginx
 EXPOSE 80
-COPY --from=builder /app/build /ush/share/nginx/html
+COPY --from=builder /app/build /usr/share/nginx/html
